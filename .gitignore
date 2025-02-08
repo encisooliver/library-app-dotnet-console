@@ -1,0 +1,45 @@
+## User-specific files
+.idea/
+.vs/
+.vscode/
+
+## Windows-specific files
+Thumbs.db
+Desktop.ini
+
+## ASP.NET Core Console App
+bin/
+obj/
+*.dll
+*.exe
+*.pdb
+*.user
+*.suo
+*.userosscache
+*.sln.docstates
+
+## ASP.NET Core temporary files
+appsettings.Development.json
+appsettings.json
+
+## User secrets (for development)
+secrets/
+
+## Logs
+logs/
+
+## .NET Core
+project.lock.json
+project.fragment.lock.json
+
+## ASP.NET Core Build Artifacts
+artifacts/
+
+## JetBrains Rider files
+.idea/
+
+## MacOS specific
+.DS_Store
+
+## Linux specific
+*.swp
