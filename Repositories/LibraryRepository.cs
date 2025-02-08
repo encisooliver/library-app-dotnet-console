@@ -43,7 +43,7 @@ public class LibraryRepository: ILibraryRepository
     public BookModel BorrowBook(int id)
     {
         var book = _library.BookList.Find(b => b.Id == id);
-        return book ?? book;
+        return book;
     }
     public string ReturnBook(int id, PersonModel borrower)
     {
